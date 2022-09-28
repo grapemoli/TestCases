@@ -8,7 +8,7 @@ e.g., let's look at the example test case
 The above compares the return of say_hello("Qualified") with "Hello, Qualified!" If the two are equal, then no errors are thrown.
 
 ### unittest 
-_All Information Below is directly from: [https://realpython.com/python-testing/]_
+_All Information Below is directly from: (https://realpython.com/python-testing/)_
 The unittest library requires that:
 1. You put your tests into classes as methods
 2. You use a series of special assertion methods in the unittest.TestCase class instead of the built-in assert statement
