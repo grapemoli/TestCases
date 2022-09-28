@@ -123,3 +123,5 @@ Note that this is unique to the Qualified IDE.
   ]
 }
 ```
+
+The equivalent of this is the MarkDown of a UML.
