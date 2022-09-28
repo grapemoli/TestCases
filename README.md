@@ -8,7 +8,7 @@ e.g., let's look at the example test case
 The above compares the return of say_hello("Qualified") with "Hello, Qualified!" If the two are equal, then no errors are thrown.
 
 ### unittest 
-_All Information Below is directly from: (https://realpython.com/python-testing/)_
+_All Information Below is directly from: [https://realpython.com/python-testing/]_
 The unittest library requires that:
 1. You put your tests into classes as methods
 2. You use a series of special assertion methods in the unittest.TestCase class instead of the built-in assert statement
@@ -59,6 +59,8 @@ There are also unordered lists:
 
 Feel free to nest the lists as you'd like.
 
+For example, to create a hyperlink to https://www.qualified.io, with a link text that says, Visit Qualified!, you'd write this in Markdown: [Visit Qualified!](https://www.qualified.io).
+
 ## Tables
 | Name | Description          |
 | ------------- | ----------- |
@@ -88,7 +90,7 @@ class Grace() {
 ```
 
 ## JSON Customization
-Note that this is unique to Qualified.
+Note that this is unique to the Qualified IDE.
 ```%method-doc
 {  
   "method": "intersect_arrays",
