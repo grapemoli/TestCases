@@ -88,6 +88,7 @@ class Grace() {
 ```
 
 ## JSON Customization
+Note that this is unique to Qualified.
 ```%method-doc
 {  
   "method": "intersect_arrays",
