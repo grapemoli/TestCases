@@ -29,20 +29,28 @@ The last step of writing a test is to validate the output against a known respon
 
 #### Common Methods in unittest
 The below are common methods and their equivalents:
-.assertEqual(a, b) ... a == b
-.assertTrue(x) ... bool(x) is True
-.assertFalse(x)	... bool(x) is False
-.assertIs(a, b)	... a is b
-.assertIsNone(x) ... x is None
-.assertIn(a, b) ... a in b
-.assertIsInstance(a, b)	... isinstance(a, b)
-*note: .assertIs(), .assertIsNone(), .assertIn(), and .assertIsInstance() all have opposite methods, named .assertIsNot(), and so forth *
+<br>.assertEqual(a, b) ... a == b
+<br>.assertTrue(x) ... bool(x) is True
+<br>.assertFalse(x)	... bool(x) is False
+<br>.assertIs(a, b)	... a is b
+<br>.assertIsNone(x) ... x is None
+<br>.assertIn(a, b) ... a in b
+<br>.assertIsInstance(a, b)	... isinstance(a, b)
+<br>*note: .assertIs(), .assertIsNone(), .assertIn(), and .assertIsInstance() all have opposite methods, named .assertIsNot(), and so forth *
 
 # Markdown Help
 Note that all information is taken from the Qualified Markdown Guide: [www.qualified.io]
 
 ## Basic Features
 You can *italicize* or **bold.** You can also ~~strikethrough.~~
+
+```
+*italics* or _italics_
+
+**bold** or  __bold__
+
+~~strikethrough~~
+```
 
 There are ordered lists:
 1. one
@@ -57,9 +65,24 @@ There are also unordered lists:
 - two
 - three
 
+```
+1. Ordered 1
+2. Ordered 2
+
+* Unordered 1
+* Unordered 2
+OR
+- Unordered 1
+- Unordered 2
+```
+
 Feel free to nest the lists as you'd like.
 
-For example, to create a hyperlink to https://www.qualified.io, with a link text that says, Visit Qualified!, you'd write this in Markdown: [Visit Qualified!](https://www.qualified.io).
+For example, to create a hyperlink to https://www.qualified.io, with a link text that says, Visit Qualified!, you'd write this in Markdown: Visit Qualified!](https://www.qualified.io).
+
+```
+Visit Qualified!](https://www.qualified.io
+```
 
 ## Tables
 | Name | Description          |
@@ -67,6 +90,13 @@ For example, to create a hyperlink to https://www.qualified.io, with a link text
 | Help      | ~~Display the~~ help window.|
 | Close     | _Closes_ a window     |
 
+
+````
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | ~~Display the~~ help window.|
+| Close     | _Closes_ a window     |
+```
 
 ## Code Formatting
 ### Inline Formats
