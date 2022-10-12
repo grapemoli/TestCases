@@ -81,7 +81,7 @@ OR
 
 Feel free to nest the lists as you'd like.
 
-For example, to create a hyperlink to https://www.qualified.io, with a link text that says, *Visit Qualified!* like so: [Visit Qualified!](https://www.qualified.io).
+Lastly, to create a hyperlink to https://www.qualified.io, with a link text that says, *Visit Qualified!* like so: [Visit Qualified!](https://www.qualified.io).
 
 ```
 SYNTAX:
