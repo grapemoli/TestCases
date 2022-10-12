@@ -36,6 +36,7 @@ The below are common methods and their equivalents:
 <br>.assertIsNone(x) ... x is None
 <br>.assertIn(a, b) ... a in b
 <br>.assertIsInstance(a, b)	... isinstance(a, b)
+
 <br>*note: .assertIs(), .assertIsNone(), .assertIn(), and .assertIsInstance() all have opposite methods, named .assertIsNot(), and so forth*
 
 # Markdown Help
@@ -45,6 +46,7 @@ Note that all information is taken from the Qualified Markdown Guide: [www.quali
 You can *italicize* or **bold.** You can also ~~strikethrough.~~
 
 ```
+SYNTAX: 
 *italics* or _italics_
 
 **bold** or  __bold__
@@ -66,6 +68,7 @@ There are also unordered lists:
 - three
 
 ```
+SYNTAX:
 1. Ordered 1
 2. Ordered 2
 
@@ -78,10 +81,11 @@ OR
 
 Feel free to nest the lists as you'd like.
 
-For example, to create a hyperlink to https://www.qualified.io, with a link text that says, Visit Qualified!, you'd write this in Markdown: Visit Qualified!](https://www.qualified.io).
+For example, to create a hyperlink to https://www.qualified.io, with a link text that says, Visit Qualified!, you'd write this in Markdown: [Visit Qualified!](https://www.qualified.io).
 
 ```
-Visit Qualified!](https://www.qualified.io
+SYNTAX:
+[Visit Qualified!](https://www.qualified.io
 ```
 
 ## Tables
@@ -92,6 +96,7 @@ Visit Qualified!](https://www.qualified.io
 
 
 ````
+SYNTAX:
 | Name | Description          |
 | ------------- | ----------- |
 | Help      | ~~Display the~~ help window.|
