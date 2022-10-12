@@ -85,7 +85,7 @@ Lastly, to create a hyperlink to https://www.qualified.io, with a link text that
 
 ```
 SYNTAX:
-[Visit Qualified!](https://www.qualified.io
+[Visit Qualified!](https://www.qualified.io)
 ```
 
 ## Tables
