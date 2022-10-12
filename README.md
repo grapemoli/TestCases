@@ -124,7 +124,7 @@ Note that this is unique to the Qualified IDE.
 }
 ```
 
-The equivalent of this is the MarkDown of a UML on certain IDE's.
+The equivalent of this is the MarkDown of a UML. 
 
 Lastly, note that MD accepts HTML formatting. In the off-chance that MD is being weird with line breaks, using the HTML line break. 
 ```
