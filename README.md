@@ -81,7 +81,14 @@ OR
 
 Feel free to nest the lists as you'd like.
 
-Lastly, to create a hyperlink to https://www.qualified.io, with a link text that says, *Visit Qualified!* like so: [Visit Qualified!](https://www.qualified.io).
+To create a hyperlink to https://www.qualified.io, with a link text that says, *Visit Qualified!* like so: [Visit Qualified!](https://www.qualified.io).
+
+Lastly, note that MD accepts HTML formatting. In the off-chance that MD is being weird with line breaks, using the HTML line break. 
+```
+Paragraph 1
+<br>
+Paragraph 2
+```
 
 ```
 SYNTAX:
@@ -166,9 +173,3 @@ Note that this is unique to the Qualified IDE.
 
 The equivalent of this is the MarkDown of a UML. 
 
-Lastly, note that MD accepts HTML formatting. In the off-chance that MD is being weird with line breaks, using the HTML line break. 
-```
-Paragraph 1
-<br>
-Paragraph 2
-```
