@@ -105,7 +105,12 @@ SYNTAX:
 
 ## Code Formatting
 ### Inline Formats
-Inline formatting is done using single backticks to format text in a special monospace format. For example, on line four, `say_hello()` should actually be `**sayHello()**`.
+Inline formatting is done using single backticks to format text in a special monospace format. For example, on line four, `say_hello().`
+
+```
+SYNTAX:
+`say_Hello()`
+```
 
 ### Multiple Lines
 You use triple backticks to format text as its own distinct block.
