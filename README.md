@@ -5,11 +5,11 @@
 ## Test Cases ... in Python!
 e.g., let's look at the example test case
 `self.assertEqual(say_hello("Qualified"), "Hello, Qualified!")`
-The above compares the return of say_hello("Qualified") with "Hello, Qualified!" If the two are equal, then no errors are thrown.
+<br>The above compares the return of say_hello("Qualified") with "Hello, Qualified!" If the two are equal, then no errors are thrown.
 
 ### unittest 
 _All Information Below is directly from: [https://realpython.com/python-testing/]_
-The unittest library requires that:
+<br>The unittest library requires that:
 1. You put your tests into classes as methods
 2. You use a series of special assertion methods in the unittest.TestCase class instead of the built-in assert statement
 i.e., use unittest
@@ -124,4 +124,11 @@ Note that this is unique to the Qualified IDE.
 }
 ```
 
-The equivalent of this is the MarkDown of a UML.
+The equivalent of this is the MarkDown of a UML on certain IDE's.
+
+Lastly, note that MD accepts HTML formatting. In the off-chance that MD is being weird with line breaks, using the HTML line break. 
+```
+Paragraph 1
+<br[
+Paragraph 2
+```
