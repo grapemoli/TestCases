@@ -36,7 +36,7 @@ The below are common methods and their equivalents:
 <br>.assertIsNone(x) ... x is None
 <br>.assertIn(a, b) ... a in b
 <br>.assertIsInstance(a, b)	... isinstance(a, b)
-<br>*note: .assertIs(), .assertIsNone(), .assertIn(), and .assertIsInstance() all have opposite methods, named .assertIsNot(), and so forth *
+<br>*note: .assertIs(), .assertIsNone(), .assertIn(), and .assertIsInstance() all have opposite methods, named .assertIsNot(), and so forth*
 
 # Markdown Help
 Note that all information is taken from the Qualified Markdown Guide: [www.qualified.io]
