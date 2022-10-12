@@ -95,7 +95,7 @@ SYNTAX:
 | Close     | _Closes_ a window     |
 
 
-````
+```
 SYNTAX:
 | Name | Description          |
 | ------------- | ----------- |
