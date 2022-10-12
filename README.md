@@ -1,6 +1,6 @@
-# To Do
+# Goals
 - test cases: learn how to write, and how to work
-- printing in IDE: where to find the stdout
+- markdown: a guide
 
 ## Test Cases ... in Python!
 e.g., let's look at the example test case
